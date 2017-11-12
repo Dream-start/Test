@@ -3,8 +3,8 @@ package com.javatestwork.school;
  * 
  *<P>Title:</p>
  *<p>Description:</p>
- * @author 幻想乡
- * @2017年11月10日
+ * @author 禄脙脧毛脧莽
+ * @2017脛锚11脭脗10脠脮
  * @StudentManageInterface.java
  */
 public interface StudentManageInterface {
