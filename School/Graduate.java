@@ -2,17 +2,17 @@ package com.javatestwork.school;
 /**
  * 
  *<P>Title:</p>
- *<p>Description:¶¨ÒåÒ»¸öÑĞ¾¿ÉúÀàGraduate,²¢ÊµÏÖStudentManageInterfaceºÍTeacherManageInterface ½Ó¿Ú;¶¨ÒåµÄ³ÉÔ±±äÁ¿ÓĞname(ĞÕÃû)¡¢sex(ĞÔ±ğ)¡¢age(ÄêÁä)¡¢fee(Ã¿Ñ§ÆÚÑ§·Ñ)¡¢pay(ÔÂ¹¤×Ê)£»</p>
- * @author »ÃÏëÏç
- * @2017Äê11ÔÂ10ÈÕ
+ *<p>Description:å®šä¹‰ä¸€ä¸ªç ”ç©¶ç”Ÿç±»Graduate,å¹¶å®ç°StudentManageInterfaceå’ŒTeacherManageInterface æ¥å£;å®šä¹‰çš„æˆå‘˜å˜é‡æœ‰name(å§“å)ã€sex(æ€§åˆ«)ã€age(å¹´é¾„)ã€fee(æ¯å­¦æœŸå­¦è´¹)ã€pay(æœˆå·¥èµ„)ï¼›</p>
+ * @author å¹»æƒ³ä¹¡
+ * @2017å¹´11æœˆ10æ—¥
  * @Graduate.java
  */
 public class Graduate implements StudentManageInterface, TeacherManageInterface {
-	 private String name;//ĞÕÃû
-	 private String sex;//ĞÔ±ğ
-	 private int age;//ÄêÁä
-	 private int fee;//Ã¿Ñ§ÆÚÑ§·Ñ
-	 private int pay;//ÔÂ¹¤×Ê
+	 private String name;//å§“å
+	 private String sex;//æ€§åˆ«
+	 private int age;//å¹´é¾„
+	 private int fee;//æ¯å­¦æœŸå­¦è´¹
+	 private int pay;//æœˆå·¥èµ„
 	 public Graduate(String name,String sex, int age)
 	 {
 	  this.name = name;
