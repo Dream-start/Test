@@ -1,6 +1,6 @@
 package com.num.work;
 
-//ÏÈ´Ó¼üÅÌÊäÈëÒ»¸öÊ®Áù½øÖÆÊı£¬ÔÙ½«Æä×ª»¯ÎªÊ®½øÖÆÊı£¬È»ºóÊä³ö¡£ÈôÊäÈëµÄ²»ÊÇÒ»¸öÓĞĞ§µÄÊ®Áù½øÖÆÊı£¬ÔòÅ×³öÒì³£¡£ 
+//å…ˆä»é”®ç›˜è¾“å…¥ä¸€ä¸ªåå…­è¿›åˆ¶æ•°ï¼Œå†å°†å…¶è½¬åŒ–ä¸ºåè¿›åˆ¶æ•°ï¼Œç„¶åè¾“å‡ºã€‚è‹¥è¾“å…¥çš„ä¸æ˜¯ä¸€ä¸ªæœ‰æ•ˆçš„åå…­è¿›åˆ¶æ•°ï¼Œåˆ™æŠ›å‡ºå¼‚å¸¸ã€‚ 
 import java.util.Scanner; 
 
 class Exchange {     
@@ -24,7 +24,7 @@ class Exchange {
 			y+=k*Math.pow(16,s.length()-(i+1));           
 		}             
 		System.out.println(y);             
-		System.out.println("³É¹¦×ª»»");         
+		System.out.println("æˆåŠŸè½¬æ¢");         
 	}        
 	int Change(char h){             
 		int x;            
@@ -90,7 +90,7 @@ class MyException extends RuntimeException{
 		super(msg);       
 	}        
 	public void printcount()  {             
-		System.out.println("16½øÖÆÊıÊäÈë²»ÕıÈ·£¡");        
+		System.out.println("16è¿›åˆ¶æ•°è¾“å…¥ä¸æ­£ç¡®ï¼");        
 	}     
 }    
 
