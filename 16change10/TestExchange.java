@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TestExchange{       
 	public static void main(String[] args)  {            
-		System.out.println("请输入一个16进制数：");            
+		System.out.println("脟毛脢盲脠毛脪禄赂枚16陆酶脰脝脢媒拢潞");            
 		Scanner S=new Scanner(System.in);            
 		String s=S.next();             
 		Exchange E=new Exchange(s);            
