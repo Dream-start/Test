@@ -6,8 +6,8 @@ package com.javatestwork.CarWeight;
 /**
  *<P>Title:</p>
  *<p>Description:</p>
- * @author »ÃÏëÏç
- * @2017Äê11ÔÂ10ÈÕ
+ * @author å¹»æƒ³ä¹¡
+ * @2017å¹´11æœˆ10æ—¥
  * @Test.java
  */
 public class Test {
@@ -30,8 +30,8 @@ public class Test {
 					goodsTwo[i]=new WashMachine();     
 				}
 			Car bigcar=new Car(goodsOne);     
-			System.out.println("´ó»õ³µ×°ÔØµÄ»õÎïÖØÁ¿:"+bigcar.getTotalWeights());
+			System.out.println("å¤§è´§è½¦è£…è½½çš„è´§ç‰©é‡é‡:"+bigcar.getTotalWeights());
 			Car smallcar=new Car(goodsTwo);     
-			System.out.println("Ğ¡»õ³µ×°ÔØµÄ»õÎïÖØÁ¿:"+smallcar.getTotalWeights());
+			System.out.println("å°è´§è½¦è£…è½½çš„è´§ç‰©é‡é‡:"+smallcar.getTotalWeights());
 			} 
 }
