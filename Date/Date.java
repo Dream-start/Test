@@ -2,9 +2,9 @@ package com.tedu.star;
 
 public class Date {      
 		public static void main(String[] args)  {              
-				System.out.println("当前时刻为：");          
+				System.out.println("褰撳墠鏃跺埢涓猴細");          
 				System.out.println(new Date().toString());              
-				System.out.println("转化显示格式后：");               
+				System.out.println("杞寲鏄剧ず鏍煎紡鍚庯細");               
 				System.out.println(convertCommonDateStr(new Date().toString()));     
 		}         
 		public static String convertCommonDateStr(String commonDateStr)  {              
